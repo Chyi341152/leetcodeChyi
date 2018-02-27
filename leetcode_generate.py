@@ -444,8 +444,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 (Notes: :lock: means you need to buy a book from Leetcode to unlock the problem)
 
 | # | Title | Source Code | Article | Difficulty |
-|:---:|:---:|:---:|:---:|:---:|
-'''.format(language=languages_readme,
+|:---:|:---:|:---:|:---:|:---:|'''.format(language=languages_readme,
                                           tm=time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())),
                                           num_solved=self.num_solved, num_total=self.num_total,
                                           num_lock=self.num_lock, repo=CONFIG['repo'])
